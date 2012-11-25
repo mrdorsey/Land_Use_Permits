@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Land_Use_Permits' target in the 'Land_Use_Permits' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#endif
