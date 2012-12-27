@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		455CE97516647D7D009CA96B /* Applicant.m in Sources */ = {isa = PBXBuildFile; fileRef = 455CE97416647D7D009CA96B /* Applicant.m */; };
+		458E50F11664959600B19D19 /* Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 458E50F01664959600B19D19 /* Property.m */; };
+		458E50FB1665C35700B19D19 /* Application.m in Sources */ = {isa = PBXBuildFile; fileRef = 458E50FA1665C35700B19D19 /* Application.m */; };
 		45E9171F1662E02F0092CEE8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E9171E1662E02F0092CEE8 /* Cocoa.framework */; };
 		45E917291662E02F0092CEE8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45E917271662E02F0092CEE8 /* InfoPlist.strings */; };
 		45E9172B1662E02F0092CEE8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E9172A1662E02F0092CEE8 /* main.m */; };
@@ -32,6 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		455CE97316647D7D009CA96B /* Applicant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Applicant.h; sourceTree = "<group>"; };
+		455CE97416647D7D009CA96B /* Applicant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Applicant.m; sourceTree = "<group>"; };
+		458E50EF1664959600B19D19 /* Property.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Property.h; sourceTree = "<group>"; };
+		458E50F01664959600B19D19 /* Property.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Property.m; sourceTree = "<group>"; };
+		458E50F91665C35700B19D19 /* Application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Application.h; sourceTree = "<group>"; };
+		458E50FA1665C35700B19D19 /* Application.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Application.m; sourceTree = "<group>"; };
 		45E9171A1662E02F0092CEE8 /* Land_Use_Permits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Land_Use_Permits.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45E9171E1662E02F0092CEE8 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		45E917211662E02F0092CEE8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -118,11 +127,17 @@
 		45E917241662E02F0092CEE8 /* Land_Use_Permits */ = {
 			isa = PBXGroup;
 			children = (
+				455CE97316647D7D009CA96B /* Applicant.h */,
+				455CE97416647D7D009CA96B /* Applicant.m */,
+				458E50F91665C35700B19D19 /* Application.h */,
+				458E50FA1665C35700B19D19 /* Application.m */,
 				45E917301662E02F0092CEE8 /* Document.h */,
 				45E917311662E02F0092CEE8 /* Document.m */,
+				45E917391662E02F0092CEE8 /* Document.xcdatamodeld */,
 				45E917331662E02F0092CEE8 /* Document.xib */,
 				45E917361662E02F0092CEE8 /* MainMenu.xib */,
-				45E917391662E02F0092CEE8 /* Document.xcdatamodeld */,
+				458E50EF1664959600B19D19 /* Property.h */,
+				458E50F01664959600B19D19 /* Property.m */,
 				45E917251662E02F0092CEE8 /* Supporting Files */,
 			);
 			path = Land_Use_Permits;
@@ -271,6 +286,9 @@
 				45E9172B1662E02F0092CEE8 /* main.m in Sources */,
 				45E917321662E02F0092CEE8 /* Document.m in Sources */,
 				45E9173B1662E02F0092CEE8 /* Document.xcdatamodeld in Sources */,
+				455CE97516647D7D009CA96B /* Applicant.m in Sources */,
+				458E50F11664959600B19D19 /* Property.m in Sources */,
+				458E50FB1665C35700B19D19 /* Application.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +478,7 @@
 				45E917541662E0300092CEE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45E917551662E0300092CEE8 /* Build configuration list for PBXNativeTarget "Land_Use_PermitsTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +487,7 @@
 				45E917571662E0300092CEE8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

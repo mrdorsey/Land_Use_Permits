@@ -10,4 +10,6 @@
 
 @interface Document : NSPersistentDocument
 
+- (IBAction)fakeSomeData:(id)sender;
+
 @end

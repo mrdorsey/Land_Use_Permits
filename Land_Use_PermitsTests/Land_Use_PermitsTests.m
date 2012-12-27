@@ -26,7 +26,7 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in Land_Use_PermitsTests");
+    //STFail(@"Unit tests are not implemented yet in Land_Use_PermitsTests");
 }
 
 @end
